@@ -1,0 +1,30 @@
+h1{
+    color: rgb(26, 15, 15);
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 2px solid mediumaquamarine;
+    text-align: left;
+    padding: 8px;
+    color:rgb(255, 0, 0);
+  }
+
+  p{
+      font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  button{
+    font-size: larger;
+    width: 180; height: 100;
+    color: rgb(0, 0, 0);
+    background-color: rgb(147, 147, 184);
+  }
+  h2{
+    color:mediumaquamarine
+  }
