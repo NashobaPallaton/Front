@@ -1,0 +1,68 @@
+.main{
+    width: 850;
+    height: 1050px;
+    margin: auto;
+}
+
+.header{
+    height: 200px;
+    width: 850;
+    margin: auto;
+}
+
+.logo{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    float: left;
+    margin: auto;
+}
+
+.B{
+    height: 100px;
+    width: 650px;
+    background-color: pink;
+    float: right;
+    margin: auto;
+}
+
+.sous{
+    height: 100px;
+    width: 650px;
+    background-color: yellow;
+    float: right;
+    margin: auto;
+}
+
+.baniere{
+    height: 50px;
+    width: 850px;
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+    margin: auto;
+}
+.container{
+    width: 850px;
+    margin: auto;
+}
+
+.box01{
+    width: 650px;
+    height: 500px;
+    float: left;
+    background-color: rgb(160, 60, 49);
+}
+
+.box02{
+    width: 200px;
+    height: 500px;
+    float: right;
+    background-color: rgb(71, 60, 82);
+}
+
+#box03{
+    height: 200px;
+    width: 850px;
+    background-color: rgb(57, 156, 57);
+    float: left;
+}
