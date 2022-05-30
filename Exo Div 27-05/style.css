@@ -7,7 +7,8 @@
 .header {
     height: 200px;
     width: 850;
-    margin: auto;;
+    margin: auto;
+    ;
 }
 
 .logo {
@@ -40,6 +41,7 @@
     background-color: rgb(0, 0, 0);
     color: whitesmoke;
     margin: auto;
+    float: left;
 }
 
 .container {
@@ -72,10 +74,35 @@
 
     /* For mobile: */
 
+    .container {
+        width: 100%;
+    }
+
     .logo {
         background-color: grey;
         float: left;
         margin: auto;
+        width: 100%;
+    }
+
+    .B {
+        width: 100%;
+    }
+
+    .sous {
+        width: 100%;
+    }
+
+    .box01 {
+        width: 100%;
+    }
+
+    .box02 {
+        width: 100%;
+    }
+
+    .baniere {
+        width: 100%;
     }
 
 }
@@ -83,12 +110,24 @@
 @media only screen and (min-width: 600px) {
 
     /* For tablets: */
+
     .logo {
         background-color: blue;
         float: left;
         margin: auto;
     }
 
+    .box01 {
+        width: 100%;
+    }
+
+    .box02 {
+        width: 100%;
+    }
+
+    .baniere {
+        width: 100%;
+    }
 }
 
 @media only screen and (min-width: 801px) {
