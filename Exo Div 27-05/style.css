@@ -139,5 +139,18 @@
         margin: auto;
     }
 
+    .box02 {
+        width: 200px;
+        height: 500px;
+        float: right;
+        background-color: rgb(71, 60, 82);
+    }
+
+    .box01 {
+        width: 650px;
+        height: 500px;
+        float: left;
+        background-color: rgb(160, 60, 49);
+    }
 
 }
