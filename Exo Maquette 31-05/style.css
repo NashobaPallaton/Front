@@ -1,0 +1,13 @@
+h1 {
+    float: right;
+}
+
+.asside {
+    background-color: rgb(255, 189, 45);
+    float: right;
+}
+
+.padding {
+    padding-right: 0px;
+    padding: 0px;
+}
