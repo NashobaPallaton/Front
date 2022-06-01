@@ -11,15 +11,20 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/Exo Maquette 31-05/style.css">
-    <title>Exercice 31-05</title>
+    <title>Formulaire</title>
 </head>
+
+
+
+
 
 <body>
 
     <div class="head d-none d-sm-none d-md-block">
         <img src="/Exo Maquette 31-05/Images/Jarditou.png" class="" alt="Logo">
-        <h1>Tout le jardin</h1>
+        <h1>La qualité depuis 70 ans</h1>
     </div>
+
 
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light col-12 col-sm-12 col-md-12 col-lg-12">
@@ -49,34 +54,48 @@
         </div>
     </nav>
 
-    <div class="container col-12">
+    <div class="col-12 container">
 
-        <div class="row">
+        <img src="/Exo Maquette 31-05/Images/promotion lames.png" class="img-fluid col-12 padding" alt="lame"><br>
+        <p>*Ces zones sont obligatoires</p>
 
-            <div class="col-12"><img src="/Exo Maquette 31-05/Images/promotion lames.png"
-                    class="img-fluid col-12 padding" alt="lame"></div>
+        <br>
+        <h2>Vos coordonées</h2>
+        <form action="Contact">
+            <label for="Nom">Nom*</label><br>
+            <input type="text" class="col-12"><br>
+            <label for="Prenom">Prénom*</label><br>
+            <input type="text" class="col-12"><br>
+            <label for="Sexe">Sexe*</label><br>
+            <input type="radio" id="Féminin" value="feminin">
+            <label for="Féminin">Féminin</label>
+            <input type="radio" id="Masculin" value="masculin">
+            <label for="Masculin">Masculin</label>
+            <input type="radio" id="neutre" value="neutre">
+            <label for="neutre">Neutre</label><br>
+            <label for="Dbirth">Date de Naissance*</label><br>
+            <input type="date" class="col-12"><br>
+            <label for="CodePostal">Code Postal*</label><br>
+            <input type="text" class="col-12"><br>
+            <label for="Ville">Ville</label><br>
+            <input type="text" class="col-12"><br>
+            <label for="mail">Email*</label><br>
+            <input type="email" id="mail" value="dave.Joper@afpa.fr" class="col-12"><br>
+            <br>
+            <h3>Votre demande</h3>
 
-            <div class="col-12 col-sm-12 col-md-8 col-lg-8 main">
-                <h2>L'entreprise</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate adipisci provident autem, debitis
-                    nobis aperiam at voluptatibus nulla minima nihil. Perspiciatis magni sit a, ex adipisci nesciunt
-                    molestias debitis atque!</p>
-                <h3>Qualité</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus quisquam laborum doloribus, ex
-                    aliquam repellat unde sunt molestias deleniti molestiae vel! Corrupti sint velit eaque provident
-                    voluptates voluptate incidunt repellendus.</p>
-                <h4>Devis gratuit</h4>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt, veniam eveniet error assumenda
-                    molestiae omnis, perferendis porro nisi incidunt, sed eius totam cupiditate. Libero aspernatur quo
-                    adipisci molestiae autem maxime?</p>
-            </div>
-            <div class="asside">
-                <p>Colonne de droite<br>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus corporis impedit vel pariatur
-                    quas fugit nisi maiores iure quam dolor magni, atque, ratione porro rerum labore autem facere
-                    commodi ad?</p>
-            </div>
-
+            <label for="sbj">Sujet*</label><br>
+            <input type="text" class="col-12"><br>
+            <label for="question">Votre question*</label><br>
+            <input type="text" class="col-12"><br>
+            <br>
+            <input type="checkbox" name="validation" id="ok"> J'accepte le traitement informatique de ce formulaire
+            <br>
+            <br>
+            <input class="btn btn-dark btn-outline-primary" type="button" onclick="yes" value="Envoyer">
+            <input class="btn btn-dark btn-outline-primary" type="button" onclick="no" value="Annuler">
+        </form>
+        <br>
 
         <div class="footer col-12">
             <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
@@ -102,8 +121,9 @@
                 </div>
             </nav>
         </div>
-    </div>
 
+
+    </div>
 
 
 
@@ -117,6 +137,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
         crossorigin="anonymous"></script>
+
 </body>
 
 </html>
