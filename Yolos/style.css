@@ -1,0 +1,19 @@
+.head{
+    width: 1200px;
+    margin: auto;
+    height: 600px;
+}
+.gauche {
+    background-color: aliceblue;
+}
+
+.droite {
+    background-color: rgb(41, 0, 117);
+    color: aliceblue;
+}
+
+.mob {
+    float: right;
+    color: blueviolet;
+    font-size: xx-large;
+}
