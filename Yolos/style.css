@@ -46,22 +46,35 @@ button {
 
 .part1 {
     width: 1200px;
+    height: 400px;
     margin: auto;
     margin-top: 50px;
     background-color: rgb(242, 247, 253);
 }
 
 .part2 {
+    height: 530px;
     width: 1200px;
     margin: auto;
     margin-top: 50px;
     background-color: rgb(242, 247, 253);
 }
 
-h1,
+.part3 {
+    width: 1200px;
+    margin: auto;
+    background-color: rgb(41, 41, 41);
+    margin-top: 50px;
+}
+
+h1{
+    text-align: center;
+    font-weight: bold; 
+}
 h2 {
     text-align: center;
     font-weight: bold;
+    font-size: medium;
 
 }
 
@@ -79,7 +92,8 @@ h2 {
     width: 200px;
     height: 40px;
     border: none;
-    float: left;
+    margin-left: 42px;
+    margin-top: 20px;
 }
 
 .b4 {
@@ -88,6 +102,17 @@ h2 {
     color: rgb(219, 219, 219);
     background-color: rgb(149, 60, 233);
     border: none;
+    margin-left: 42px;
+    margin-top: 20px;
+}
+
+.b5 {
+    height: 30px;
+    width: 130px;
+    background-color: rgb(149, 60, 233);
+    border: none;
+    margin-top: 10px;
+    margin-left: 0px;
 }
 
 
@@ -119,20 +144,40 @@ h2 {
     width: 392px;
 
 }
+.pf {
+    color: aliceblue;
+}
+
 .para {
     margin: auto;
 }
+
 .line {
     color: rgb(149, 60, 233);
     text-align: center;
     margin-top: -20px;
     background-color: white;
+    font-size: x-large;
 }
+
 
 .line2 {
     color: rgb(149, 60, 233);
     text-align: center;
     margin-top: -40px;
+    font-size: x-large;
+}
+
+
+.line3 {
+    color: rgb(149, 60, 233);
+    text-align: center;
+    font-size: xx-large;
+}
+
+.line4 {
+    color: gray;
+    text-align: center;
 }
 
 .square1 {
@@ -141,7 +186,7 @@ h2 {
     height: 150px;
     width: 300px;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 70px;
     font-size: small;
 }
 
@@ -151,7 +196,7 @@ h2 {
     height: 150px;
     width: 300px;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 70px;
     font-size: small;
 }
 
@@ -161,7 +206,7 @@ h2 {
     height: 150px;
     width: 300px;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 20px;
     font-size: small;
 }
 
@@ -171,11 +216,50 @@ h2 {
     height: 150px;
     width: 300px;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 20px;
     font-size: small;
 }
 
 .img {
     margin-left: 67px;
     margin-top: 30px;
+}
+
+.heart,
+.playstore,
+.trophy {
+    margin-left: 10px;
+}
+
+h3 {
+    color: aliceblue;
+}
+
+.fbox1 {
+    width: 285px;
+    margin-left: 70px;
+}
+
+.fbox2 {
+    width: 285px;
+}
+
+.fbox3 {
+    width: 285px;
+}
+
+.fbox4 {
+    width: 285px;
+}
+
+.reseaux {
+    margin-left: 500px;
+}
+
+footer {
+    color: aliceblue;
+    background-color: rgb(149, 60, 233);
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
 }
